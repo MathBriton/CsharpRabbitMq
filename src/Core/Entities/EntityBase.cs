@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RabbitCsharp  
+namespace DevTrackR.ShippingOrders.Core.Entities
 {
     public abstract class EntityBase
     {
@@ -11,7 +11,7 @@ namespace RabbitCsharp
         {
             Id = Guid.NewGuid();
         }
-
+        
         public Guid Id { get; private set; }
     }
 }
